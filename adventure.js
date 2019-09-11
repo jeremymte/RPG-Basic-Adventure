@@ -1,4 +1,4 @@
-//base for drop down
+//base object for drop down
 // var rpg = {
 //     roles: ['Fighter', 'Magician', 'Rogue', 'Cleric', 'Ranger'],
 //     classes: [
@@ -14,13 +14,6 @@
 //         ['Agile, stealthy, and quick. Thieves have no morals and will do anything to obtain their target. Equipped with an array of knives and smokescreens, they are elusive and deadly.', 'Hidden in the shadows, only appearing moments before death. Ninja are trained assassins, utilizing their speed, and sense to execute their mark.', 'An adventurer, one who does not turn their back and ventures against the harshest of storms. They march forward with brutal tactics and would rather die than kneel before another.'],
 //         ['Touched by the Light. Priests have great healing magik, and known to purify those of Dark affinity. Wanted on all parties for their mighty defensive and healing skills', 'Summoners of spirits and demons. Docile by nature, but relentless if provoked. The greatest Shamans have been known to summon gods and embody their strength.', 'Those seeking immortaility. Alchemist are restricted by the \'equivalent exchange\'rule. But the wisest of Alchemists are able to use the most of their surroundings to perform god-like feats.'],
 //         ['Their aim is second to none. Archers practice a simple shot, hundreds of times a day, ensuring that they are swift and accurate. They are deadly close range as they are afar, adapting to close combat to eliminate any weaknesses.', 'A brute, with a persistent will. They hunt creatures that are much larger than them, to prove that they are apex predators. Once they have defeated the creatures, they tame them as their own to use for the next hunt.', 'Skilled in gunpowder and short swords. Gunmen are new to the world, adapting to the revolution of technology. Few in numbers, they are considered an elite class and proven to be powerful foes, unmatched in one-on-one duels.']
-//     ],
-//     wallpaper: [
-//         ["https://geekandsundry.com/wp-content/uploads/2017/04/Paladin-Feature.png", "https://i.pinimg.com/originals/69/af/15/69af1515af1a5898a9dbac9961e1a191.jpg", "https://wallpapercave.com/wp/wp2092237.jpg"], 
-//         ["http://getwallpapers.com/wallpaper/full/d/1/3/1032669-wow-warlock-wallpaper-1920x1080-windows.jpg", "https://cdn.wallpapersafari.com/2/13/7jsfq6.jpg", "https://wallpaperplay.com/walls/full/a/8/b/212142.jpg"],
-//         ["https://i.pinimg.com/originals/28/b3/a7/28b3a7b52d4e441ff66a1d5fc7a7680a.jpg", "https://wallpaperplay.com/walls/full/d/6/f/265909.jpg", "https://www.wallpaperup.com/uploads/wallpapers/2014/10/25/493864/119eb0388fb655a53c53a731d4182528.jpg"],
-//         ["https://wallpapercave.com/wp/wp2709631.jpg", "http://getwallpapers.com/wallpaper/full/5/d/2/559192.jpg", "https://images.alphacoders.com/107/thumb-1920-107203.jpg"],
-//         ["http://cdn.desktopwallpapers4.me/wallpapers/games/1366x768/2/18845-archer-the-elder-scrolls-online-1366x768-game-wallpaper.jpg", "http://s1.1zoom.me/big0/17/347198-sepik.jpg", "https://c4.wallpaperflare.com/wallpaper/166/31/694/arch-crossfire-game-girl-wallpaper-3af099cba188382e1b67b824e196cd2a.jpg"]
 //     ],
 //     // stats format: strength, defense, health, magic, speed; scale 1-10
 //     statsFormat: ['STR', 'DEF', 'HP ', 'MAG', 'SPD'],
