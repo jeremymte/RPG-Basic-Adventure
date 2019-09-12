@@ -1,3 +1,15 @@
+document.addEventListener('DOMContentLoaded', function () {
+    const teamList = document.querySelector("#teamList ul")
+
+    teamList.addEventListener('click', function (e) {
+        if (e.target.className == 'remove') {
+            const li = e.target.parentElement;
+            teamList.removeChild(li);
+        }
+    });
+})
+
+
 //base object for drop down
 // var rpg = {
 //     roles: ['Fighter', 'Magician', 'Rogue', 'Cleric', 'Ranger'],

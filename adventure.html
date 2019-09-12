@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Oswald|Shadows+Into+Light|Shadows+Into+Light+Two|Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Oswald|Shadows+Into+Light|Shadows+Into+Light+Two|Source+Sans+Pro&display=swap"
+        rel="stylesheet">
     <!-- font-family: 'Source Sans Pro', sans-serif;
     font-family: 'Oswald', sans-serif;
     font-family: 'Shadows Into Light', cursive;
@@ -10,8 +13,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Begin a Grand Adventure</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="adventure.js"></script>
 </head>
+
 <body>
-    
+    <div id="title">
+        <h1>Begin Your Adventure, Create the Perfect Party</h1>
+    </div>
+    <div id="characterSelection">
+        <form id="originalCharacter">
+            <input type="text" placeholder="Add Your Own Character..." />
+            <button>Add</button>
+        </form>
+        <p>OR</p>
+        <div id="characterDropDown">
+            <select>
+                <optgroup label="Class">
+                    <option>
+                        <span class="className">Choose a Character</span>
+                    </option>
+                </optgroup>
+            </select>
+        </div>
+    </div>
+
+    <div id="teamList">
+        <h2>Your Current Team</h2>
+        <ul>
+            <li>
+                <span class="className">Example Character</span>
+                <span class="remove">Remove</span>
+            </li>
+        </ul>
+    </div>
+    <div id="beginAdventure">
+        <button type="button" class="beginAdventureButton">Begin!</button>
+    </div>
+
 </body>
+
 </html>

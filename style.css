@@ -1,0 +1,139 @@
+body{
+    font-family: 'Shadows Into Light', cursive;
+    color: #000000;
+    letter-spacing: 1px;
+}
+
+#title{
+    background: #eee ;
+    padding: 10px 0;
+
+}
+
+#characterSelection{
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+    text-align: center;
+}
+
+#page-banner h1, #page-banner p{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#originalCharacter{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#originalCharacter input{
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+    width: 300px;
+    float: left;
+    clear: both;
+}
+
+#originalCharacter button{
+    border: 1px solid #9361bf;
+    background: #9361bf;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    width: 100px;
+    float: left;
+    margin: 20px 0;
+    border-left: 0;
+    color: white;
+}
+
+#originalCharacter:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#originalCharacter #hide{
+  width: 30px;
+}
+
+#originalCharacter label{
+  line-height: 52px;
+}
+
+#title h1, #title p{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+#title input{
+    width: 90%;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #44
+}
+#teamList, #originalCharacter, #tabbed-content{
+    margin: 30px;
+}
+
+#teamList ul, #tabbed-content ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#teamList li{
+    padding: 20px;
+    border-left: 5px solid #ddd;
+    margin: 20px 10px;
+}
+
+#teamList li:hover{
+    border-color: #9361bf;
+}
+.remove{
+    float: right;
+    background: #9361bf;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+.remove:hover{
+    background: #333;
+}
+
+.beginAdventureButton{
+    float: right;
+    background: #9361bf;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+}
+
+.beginAdventureButton:hover{
+    background: #333;
+}
