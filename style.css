@@ -78,6 +78,49 @@ body{
   line-height: 52px;
 }
 
+#originalCharacter input{
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+    width: 300px;
+    float: left;
+    clear: both;
+}
+
+#characterDropDown button{
+    border: 1px solid #9361bf;
+    background: #9361bf;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    width: 100px;
+    float: left;
+    margin: 20px 0;
+    border-left: 0;
+    color: white;
+}
+
+#characterDropDown:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#characterDropDown #hide{
+  width: 30px;
+}
+
+#characterDropDown label{
+  line-height: 52px;
+}
+
 #title h1, #title p{
     width: 100%;
     text-align: center;

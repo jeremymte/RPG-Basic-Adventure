@@ -7,6 +7,26 @@ document.addEventListener('DOMContentLoaded', function () {
             teamList.removeChild(li);
         }
     });
+
+    const addOriginalCharacter = document.forms['originalCharacter'];
+    addOriginalCharacter.addEventListener('submit', function (originalCharacter) {
+        originalCharacter.preventDefault();
+
+        const value = addOriginalCharacter.querySelector('input[type="text"]').value;
+        const li = document.createElement('li');
+        const characterName = document.createElement('span');
+        const removeButton = document.createElement('span');
+
+        characterName.textContent = value;
+        removeButton.textContent = 'Remove';
+
+        characterName.classList.add('className');
+        removeButton.classList.add('remove');
+
+        li.appendChild(characterName);
+        li.appendChild(removeButton);
+        teamList.appendChild(li);
+    });
 })
 
 
