@@ -78,7 +78,12 @@ body{
   line-height: 52px;
 }
 
-#originalCharacter input{
+#characterDropDown {
+    font-size: 16px;
+    padding: 10px;
+}
+
+#characterDropDown input{
     display: block;
     margin: 20px 0;
     padding: 10px;
@@ -137,7 +142,7 @@ body{
     font-size: 16px;
     color: #44
 }
-#teamList, #originalCharacter, #tabbed-content{
+#teamList, #tabbed-content{
     margin: 30px;
 }
 
