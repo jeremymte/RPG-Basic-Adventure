@@ -58,7 +58,7 @@ body{
     border-radius: 0 4px 4px 0;
     cursor: pointer;
     width: 100px;
-    float: left;
+    /* float: left; */
     margin: 20px 0;
     border-left: 0;
     color: white;
@@ -92,7 +92,7 @@ body{
     border-radius: 4px 0 0 4px;
     box-sizing: border-box;
     width: 300px;
-    float: left;
+    /* float: left; */
     clear: both;
 }
 
@@ -106,7 +106,7 @@ body{
     border-radius: 0 4px 4px 0;
     cursor: pointer;
     width: 100px;
-    float: left;
+    /* float: left; */
     margin: 20px 0;
     border-left: 0;
     color: white;
@@ -140,7 +140,7 @@ body{
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 16px;
-    color: #44
+    color: #000000
 }
 #teamList, #tabbed-content{
     margin: 30px;

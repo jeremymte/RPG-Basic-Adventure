@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
     const teamList = document.querySelector("#teamList ul")
 
-    teamList.addEventListener('click', function (e) {
-        if (e.target.className == 'remove') {
-            const li = e.target.parentElement;
+    teamList.addEventListener('click', function (deleteCharacter) {
+        if (deleteCharacter.target.className == 'remove') {
+            const li = deleteCharacter.target.parentElement;
             teamList.removeChild(li);
         }
     });
@@ -49,9 +49,11 @@ document.addEventListener('DOMContentLoaded', function () {
     };
     rpg.listCharacters();
 
-    const addPremadeCharacter = document.getElementById("selectedCharacter").value;
-    addPremadeCharacter.addEventListener('click', function (premadeCharacter) {
-        const value = document.getElementById("selectedCharacter").value;
+    const addPremadeCharacter = document.forms['characterDropDown'];
+    addPremadeCharacter.addEventListener('submit', function (premadeCharacter) {
+        premadeCharacter.preventDefault();
+
+        const value = document.querySelector('#selectedCharacter').value;
         const li = document.createElement('li');
         const characterName = document.createElement('span');
         const removeButton = document.createElement('span');
