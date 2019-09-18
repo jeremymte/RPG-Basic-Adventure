@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
         li.appendChild(characterName);
         li.appendChild(removeButton);
         teamList.appendChild(li);
+        addOriginalCharacter.querySelector('input').value = "";
     });
 
     //place drop down into HTML
@@ -69,5 +70,13 @@ document.addEventListener('DOMContentLoaded', function () {
         teamList.appendChild(li);
     });
 
+    function hideButtonWhenTeamFull() {
+        const teamCount = document.querySelector("#teamList ul").childElementCount
+        const hideButton = document.querySelector('#beginAdventure');
+        if (teamCount <= 5) {
+            hideButton.style.visibility = "hidden";
+        } else { hideButton.style.visibility = "visible"; }
+    };
 
+    hideButtonWhenTeamFull();
 });

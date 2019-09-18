@@ -2,12 +2,19 @@ body{
     font-family: 'Shadows Into Light', cursive;
     color: #000000;
     letter-spacing: 1px;
+    background-image: url("https://c.wallhere.com/photos/61/19/The_Elder_Scrolls_IV_Oblivion_video_games_RPG_Imperial_City_artwork_concept_art_digital_art_medieval-245347.jpg!d");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-color: #46344E;
+    background-attachment: fixed;
 }
 
 #title{
-    background: #eee ;
+    background: #05386B;
     padding: 10px 0;
-
+    color: white;
+    opacity: 0.75;
 }
 
 #characterSelection{
@@ -21,6 +28,9 @@ body{
     overflow: hidden;
     border: 1px solid lightgray;
     text-align: center;
+    color: white;
+    background-color: #05386B;
+    opacity: 0.75;
 }
 
 #page-banner h1, #page-banner p{
@@ -140,13 +150,13 @@ body{
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 16px;
-    color: #000000
 }
-#teamList, #tabbed-content{
+#teamList{
     margin: 30px;
+    color: white;
 }
 
-#teamList ul, #tabbed-content ul{
+#teamList ul{
     list-style-type: none;
     padding: 0;
 }
@@ -158,11 +168,11 @@ body{
 }
 
 #teamList li:hover{
-    border-color: #9361bf;
+    border-color: #05386B;
 }
 .remove{
     float: right;
-    background: #9361bf;
+    background: #05386B;
     padding: 6px;
     border-radius: 4px;
     cursor: pointer;
@@ -174,12 +184,13 @@ body{
 
 .beginAdventureButton{
     float: right;
-    background: #9361bf;
+    background: #05386B;
     padding: 6px;
     border-radius: 4px;
     cursor: pointer;
     color: white;
     text-align: center;
+    visibility: unset;
 }
 
 .beginAdventureButton:hover{
